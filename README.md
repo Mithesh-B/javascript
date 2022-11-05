@@ -1,1 +1,1 @@
-# javascript
+A bunch of practice projects.
