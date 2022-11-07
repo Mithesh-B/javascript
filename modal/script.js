@@ -15,5 +15,13 @@ const closeModal = function () {
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
 };
+
+//closes the modal page when clicked on blurred area or x mark
 btnCloseModal.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
+
+document.addEventListener("keydown", function (KeyboardEvent) {
+  if (KeyboardEvent.key === "Escape" && !modal.classList.contains("hidden")) {
+    closeModal();
+  }
+});
