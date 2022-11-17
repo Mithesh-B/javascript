@@ -1,1 +1,1 @@
-A bunch of practice projects.
+A bunch of practice projects from tutorials.
